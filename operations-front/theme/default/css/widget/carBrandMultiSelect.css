@@ -1,0 +1,94 @@
+.carbrand-multiselect-list-popover {
+  width: 300px;
+  max-width: 300px;
+  min-width: 300px;
+  left: 0 !important;
+  font-family: Arial, Verdana, "宋体";
+  font-size: 12px;
+}
+
+.carbrand-multiselect-list-popover .arrow {
+  left: 80px !important;
+}
+
+.carbrand-multiselect-list .nav-tabs {
+  border-bottom: 1px solid #edd28b;
+}
+
+.carbrand-multiselect-list .nav-tabs a {
+  padding: 5px 8px;
+  font-size: 12px;
+  max-width: 80px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.carbrand-multiselect-list .nav-tabs li.active a {
+  border: 1px solid #edd28b;
+  border-bottom-color: transparent;
+}
+
+.carbrand-multiselect-list .tab-content {
+  min-height: 201px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.carbrand-multiselect-list .tab-content ul {
+  list-style:none;
+  padding:0;
+}
+
+.carbrand-multiselect-list .tab-content li {
+  clear: none;
+  list-style:none;
+  padding: 1px 0;
+  white-space:nowrap;
+}
+
+.carbrand-multiselect-list .tab-content li.carseries-group {
+  background-color: #F2F2F2;
+  border: 1px solid #E0E0E0;
+  padding: 0px 3px;
+}
+
+.carbrand-multiselect-list #tabcontent-carModel li {
+  padding-left: 20px;
+  line-height: 20px;
+}
+
+.carbrand-multiselect-list #tabcontent-carModel li:hover {
+  color: white;
+  background-color: #035390;
+}
+
+.carbrand-multiselect-list #tabcontent-carModel li .checkbox {
+  margin: 0;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-weight: normal;
+}
+
+.carbrand-multiselect-list .tab-content a {
+  font-size:12px;
+  color: #005aa0;
+  padding: 3px 8px;
+  width: 100%;
+  display: block;
+}
+
+.carbrand-multiselect-list .tab-content a:hover {
+  color: white;
+  background-color: #035390;
+}
+
+.carbrand-multiselect-list .tab-content a.active {
+  border : 1px dashed #edd28b;
+}
+
+.carbrand-multiselect-list-footer {
+  margin-top: 8px;
+  border-top: 1px solid #E4E4E4;
+  padding-top: 5px;
+}

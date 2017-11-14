@@ -1,0 +1,35 @@
+.picture-preview .modal-dialog {
+  width: 550px;
+}
+
+.picture-preview .modal-content {
+  border-radius: initial;
+}
+
+.picture-preview .modal-header {
+  border-bottom: 0;
+  padding: 0;
+  height: 30px;
+}
+
+.picture-preview .modal-header button {
+  margin-top: 7px;
+  margin-right: 12px;
+}
+
+.picture-preview .modal-header button .fa {
+  font-size: 18px;
+}
+
+.picture-preview .modal-body {
+  background-color : transparent;
+  max-height: 550px;
+  padding: 0;
+  border : 0;
+  margin : 0;
+  overflow: auto;
+}
+
+.picture-preview .modal-body img {
+  width: 99.9%;
+}

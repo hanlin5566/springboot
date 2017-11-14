@@ -1,0 +1,87 @@
+/* 公司选择css */
+.company-select-parent {
+  display:inline-block;
+  position: relative;
+}
+
+.company-select-parent button {
+  max-width: 100%;
+}
+
+.company-select-parent .company-select-btn-content {
+  max-width: 94%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.company-select-container-popover {
+  width: 432px;
+  max-width: 508px;
+  min-width: 432px;
+  left: 0 !important;
+}
+
+.company-select-container-popover .arrow {
+  left: 80px !important;
+}
+
+.company-select-container.company .area-select-list-plugin,
+.company-select-container.area .company-list,
+.company-select-container.area .operation-footer .select-area,
+.company-select-container.company .operation-footer .select-company {
+  display: none;
+}
+
+.company-select-container.area .area-select-list-plugin,
+.company-select-container.company .company-list,
+.company-select-container.company .operation-footer .select-area,
+.company-select-container.area .operation-footer .select-company {
+  display: block;
+}
+
+.company-select-container {
+  font-family: Arial, Verdana, "宋体";
+  font-size: 12px;
+}
+
+.company-select-container .company-list {
+  height: 230px;
+  overflow-y: auto;
+}
+
+.company-select-container .company-list ul {
+  padding-left : 8px;
+  margin : 0;
+}
+
+.company-select-container .company-list li {
+  padding: 5px 0;
+  list-style: none;
+  min-height: 27px;
+}
+
+.company-select-container .company-list li span {
+  margin-right: 4px;
+}
+
+.company-select-container .company-list li:hover {
+  background: #F2F2F2;
+}
+
+.company-select-container .company-list .nodata {
+  text-align: center;
+  padding-right: 20px;
+  margin-top: 30px;
+}
+
+.company-select-container .operation-footer {
+  border-top: 1px solid #edd28b;
+  margin-top: 4px;
+  padding-top: 3px;
+}
+
+.company-select-container .operation-footer > div {
+  padding: 3px 0 1px 8px;
+}

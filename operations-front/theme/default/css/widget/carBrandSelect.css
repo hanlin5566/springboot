@@ -1,0 +1,77 @@
+.carbrand-select-parent {
+  display:inline-block;
+  position: relative;
+  line-height: initial;
+}
+
+.carbrand-select-list-popover {
+  width: 300px;
+  max-width: 300px;
+  min-width: 300px;
+  left: 0 !important;
+  font-family: Arial, Verdana, "宋体";
+  font-size: 12px;
+}
+
+.carbrand-select-list-popover .arrow {
+  left: 80px !important;
+}
+
+.carbrand-select-list .nav-tabs {
+  border-bottom: 1px solid #edd28b;
+}
+
+.carbrand-select-list .nav-tabs a {
+  padding: 5px 8px;
+  font-size: 12px;
+  max-width: 80px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.carbrand-select-list .nav-tabs li.active a {
+  border: 1px solid #edd28b;
+  border-bottom-color: transparent;
+}
+
+.carbrand-select-list .tab-content {
+  min-height: 201px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.carbrand-select-list .tab-content ul {
+  list-style:none;
+  padding:0;
+}
+
+.carbrand-select-list .tab-content li {
+  clear: none;
+  list-style:none;
+  padding: 1px 0;
+  white-space:nowrap;
+}
+
+.carbrand-select-list .tab-content a {
+  font-size:12px;
+  color: #005aa0;
+  padding: 3px 8px;
+  width: 100%;
+  display: block;
+}
+
+.carbrand-select-list .tab-content a:hover {
+  color: white;
+  background-color: #035390;
+}
+
+.carbrand-select-list .tab-content a.active {
+  border : 1px dashed #edd28b;
+}
+
+.carbrand-select-list-footer {
+  margin-top: 8px;
+  border-top: 1px solid #E4E4E4;
+  padding-top: 5px;
+}

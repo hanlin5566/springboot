@@ -1,0 +1,29 @@
+#login-timeout-dlg .form-signin-heading {
+  display: none;
+  font-size: 17px;
+}
+
+#login-timeout-dlg .manufacturer .h-manufacturer,
+#login-timeout-dlg .serviceProvider .h-serviceProvider,
+#login-timeout-dlg .terminalstore .h-terminalstore,
+#login-timeout-dlg .micarshow .h-micarshow {
+  display: block;
+  margin-top: 6px;
+}
+
+#login-timeout-dlg .modal-content {
+  width: 350px;
+}
+
+#login-timeout-dlg input[type=text] {
+  margin-bottom: 16px;
+}
+
+#login-timeout-dlg #inpVerify{
+	width: 110px;
+    height: 31px;
+    margin-top: 10px;
+}
+#login-timeout-dlg #inpVerify-error{
+	width: 100%;
+}

@@ -1,0 +1,49 @@
+.dialog-confirm .modal-dialog {
+  width: 300px;
+}
+
+.dialog-confirm .modal-content {
+  border-radius: initial;
+  margin-top: 100px;
+}
+
+.dialog-confirm .modal-header {
+  border-bottom: 0;
+  padding: 0;
+  height: 30px;
+}
+
+.dialog-confirm .modal-header button {
+  margin-top: 7px;
+  margin-right: 12px;
+}
+
+.dialog-confirm .modal-header button .fa {
+  font-size: 18px;
+}
+
+.dialog-confirm .modal-body {
+  background-color : transparent;
+  padding: 0 15px 0 20px;
+  border : 0;
+  margin : 0;
+}
+
+.dialog-confirm .modal-body > div {
+  display : inline-block;
+  vertical-align : top;
+  margin-right: 10px;
+  max-width: 200px;
+}
+
+.dialog-confirm .modal-body .fa {
+  font-size : 28px;
+}
+
+.dialog-confirm .modal-body .fa-question-circle {
+  color: #ff8800;
+}
+
+.dialog-confirm .modal-footer {
+  border-top : 0;
+}

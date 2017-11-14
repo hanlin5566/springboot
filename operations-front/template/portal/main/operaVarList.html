@@ -1,0 +1,53 @@
+<script id="tpl_operaVarList" type="text/x-jsrender">
+<div class="long-main-content">
+	<div class="long-main-title">
+		<h1>衍生变量</h1>
+	</div>
+	<div class="teach-admin">
+		<div class="admin-con">
+			<div class="filter">
+				<p>筛选条件</p>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							 <input type="text" placeholder="请输入变量衍生名称" id="varName" maxlength="40"/>
+						</div>
+						<div class="col-md-3">
+							 <input type="text" placeholder="请输入取数接口名称" id="queryIface" maxlength="40"/>
+						</div>
+						<div class="col-md-3">
+							 <select id="state">
+  								<option value ="">--请选择衍生变量状态--</option>
+  								<option value ="SAVED">已保存</option>
+  								<option value ="COMPILED">通过编译</option>
+ 								<option value="PUBLISHED">已发布</option>
+							</select>
+						</div>
+						<div class="col-md-3">
+							<span class="mobi-calendar iconfont icon-calendar">
+								<input name="" placeholder="请选择更新日期" type="text" id="calendar" readonly class="">
+							</span>
+						</div>
+
+						<div class="col-md-1">
+							<a href="#" class="default-btn search-btn" style=""
+								name="searchBtn">搜索</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="kebiao-con">
+				<div id="toolbar">
+					<button id="remove" class="btn btn-danger" disabled="">
+						<i class="iconfont icon-close"></i> 删除
+					</button>
+					<a class="btn btn-success tc add"> <i class="iconfont icon-add"></i>
+						新增
+					</a>
+				</div>
+				<table id="tb_var" class="evaluate-table"></table>
+			</div>
+		</div>
+	</div>
+</div>
+</script>

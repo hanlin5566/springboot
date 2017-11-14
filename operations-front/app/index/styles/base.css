@@ -1,0 +1,29 @@
+/* CSS Document */
+body{
+ min-width: 980px;
+ margin:0px;padding:0px;
+ font:14px Microsoft Yahei;color:#2c2c2c;
+
+}
+ul{padding:0px;margin:0px;list-style:none;}
+a{font:inherit; color:inherit; text-decoration:none;letter-spacing:0.4px;}
+
+ .clearfix::after{
+  content: "";
+  display: block;
+  height: 0px;
+  clear: both;
+ }
+ .clearfix{*zoom: 1;}
+
+ .clearfloat{
+  clear: both;
+  font-size: 0px;
+  line-height: 0px;
+ }
+
+
+
+
+
+

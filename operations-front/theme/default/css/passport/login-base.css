@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+/*————————————————————————————————————————————————————
+  Project Name:   micarshow @2015
+  Type:           login base
+  Date:           2015.09.22
+  Description:    以此CSS作为基础，包括 CSS Reset和公共的CSS
+  Version:
+
+—————————————————————————————————————————————————————*/
+
+ body{
+  /*
+  min-width: 900px;
+  */
+  font-size: 14px;
+  font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#2c2c2c;
+ }
+ h1, h2, h3, h4, h5, h6, ul{padding:0px;margin:0px;}
+ ul{list-style:none;}
+ a{font:inherit; color:inherit; text-decoration:none;letter-spacing:0.4px;}
+ label{font-weight: normal;}
+ button[type="disabled"]{
+  cursor: no-drop;
+ }
+ input[type="number"]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+ }
+
+ .control-label{
+  font-weight: normal;
+  white-space: nowrap;
+ }
+
+
+ .clearfix::after{
+  content: "";
+  display: block;
+  height: 0px;
+  clear: both;
+ }
+ .clearfix{*zoom: 1;}
+
+ .clearfloat{
+  clear: both;
+  font-size: 0px;
+  line-height: 0px;
+ }
+
+
+ .v-middle,
+ .label-for-icon,
+ .pic img,
+ .face img,
+ .ad-area img{
+  vertical-align: middle;
+ }
+
+ .h-center{
+  text-align: center;
+ }
+
+ /*星号(＊)*/
+ .asterisk{color: #ed4a4a;}
+ .required:before {
+  content: "* ";
+  color: red;
+  vertical-align: middle;
+}
+
+ /*(简短的)提示、线索*/
+ .hint{color: #999;}
+ p.hint{margin: 4px;}
+
+
+form .error{
+ font-size: 14px;
+ color: #ed4a4a;
+}
+
+.registerError{color: #ed4a4a;}
+
+
+
+

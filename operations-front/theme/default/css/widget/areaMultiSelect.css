@@ -1,0 +1,87 @@
+/* 省市区选择css */
+.area-multi-select-parent {
+  display:inline-block;
+  position: relative;
+}
+
+.area-multi-select-list-popover {
+  width: 620px;
+  max-width: 508px;
+  min-width: 432px;
+  left: 0 !important;
+}
+
+/* .area-multi-select-list-popover .arrow {
+  left: 80px !important;
+} */
+
+.area-multi-select-list .nav-tabs {
+  border-bottom: 1px solid #edd28b;
+}
+
+.area-multi-select-list .nav-tabs a {
+  padding: 5px 8px;
+  font-family: Arial, Verdana, "宋体";
+  font-size: 12px;
+}
+
+.area-multi-select-list .nav-tabs li.active a {
+  border: 1px solid #edd28b;
+  border-bottom-color: transparent;
+}
+
+.area-multi-select-list .tab-content {
+  min-height: 201px;
+}
+
+.area-multi-select-list .tab-content ul {
+  list-style:none;
+  padding: 0;
+}
+
+.area-multi-select-list .tab-content li {
+  float:left;
+  min-width:95px;
+  clear: none;
+  list-style:none;
+  padding: 5px 0;
+  white-space:nowrap;
+}
+
+.area-multi-select-list .tab-content li input {
+  vertical-align: -3px;
+  margin-left:3px;
+}
+
+.area-multi-select-list .tab-content a {
+  font-size:12px;
+  font-family: Arial, Verdana, "宋体";
+  color: #005aa0;
+  padding: 3px 1px;
+}
+
+.area-multi-select-list .tab-content a:hover {
+  color: white;
+  background-color: #035390;
+}
+
+.area-multi-select-list .tab-content a.active {
+  border : 1px dashed #edd28b;
+}
+
+.area-multi-select-list .operation-footer {
+  border-top: 1px solid #edd28b;
+  margin-top: 4px;
+  padding-top: 3px;
+}
+
+.area-multi-select-list .operation-footer input {
+  font-size: 12px;
+  height: 28px;
+  width: 80px;
+  vertical-align: middle;
+}
+
+.area-multi-select-list .operation-footer button {
+  padding: 3px 10px;
+}

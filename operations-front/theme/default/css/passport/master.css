@@ -1,0 +1,575 @@
+@charset "utf-8";
+
+.modal-header{border-bottom: none;}
+.picture-preview .modal-footer{border-top: none;}
+.picture-preview .modal-body img{width: 100%;}
+
+
+.header-login{border-bottom:1px #dd0606 solid;}
+
+
+.top-login{
+ max-width: 1300px;
+ margin: 0 auto;
+ padding: 0 20px;
+}
+.top-login a{float:left;width:180px;margin-top:20px;}
+.top-login .sline{float:left;border-right:1px #dbdbdb solid;height:42px;margin:20px 20px;}
+.top-login .name{float:left;height:25px;margin-top:28px;}
+.top-login .name img{display: none;}
+.top-login .name .active{display: list-item;}
+
+
+/*top-login 结束*/
+ .ifr-footer{background-color:#f9f9f9;}
+ .copyright{background-color:#f9f9f9;}
+ .copyright p{
+  text-align:center;
+  color:#8f8e8e;
+  font:12px Microsoft Yahei;
+  line-height:25px;
+  margin: 0;
+  padding:20px 0;
+
+ }
+
+
+/*******content-login  开始***********/
+.content-login{
+ /*
+ min-width: 980px;
+ */
+ max-width: 1300px;
+ margin: 0 auto;
+ background-repeat: no-repeat;
+}
+.content-login .left{
+ width:calc(100% - 484px);
+ height: 618px;
+ float:left;
+}
+.content-login .left img{width: 100%;}
+.content-login-manufacturer{
+ background-image: url("../../image/passport/login-manufacturer.jpg");
+}
+
+.content-login-serviceProvider{
+ background-image: url("../../image/passport/login-service-provider.jpg");
+}
+
+.content-login-terminalstore{
+ background-image: url("../../image/passport/login-terminalstore.jpg");
+}
+
+.content-login-micarshow{
+ background-image: url("../../image/passport/login-micarshow.jpg");
+}
+
+
+
+.content-login .right{
+ float:right;
+ width:378px;height:405px;
+ margin:82px 104px 128px 0;
+ border:1px #e3e3e3 solid;
+ background-color: #fff;
+
+}
+
+.content-login .error{
+ display: block;
+ margin-top: 2px;
+}
+.content-login .error[for="verify"]{
+ clear: both;
+}
+
+
+.content-login .right .active{
+ display: block;
+}
+
+
+.content-login .f1{background:#f6f6f6;height:53px;border-bottom:1px #e3e3e3 solid;}
+.content-login .f1 span{line-height:51px;margin-left:38px;}
+.content-login .f2{margin:20px 0 0 38px;}
+.content-login .img{float:left;background:#f6f6f6;width:40px;height:40px;border:1px #e3e3e3 solid;border-right:none;}
+.content-login .img img{margin:9px 0 0 11px;}
+.content-login .ipt{width:245px;height:40px;padding:0px;border:1px #e3e3e3 solid;font:14px #afafaf;
+              font-family:Microsoft Yahei;text-align:inherit;padding-left:13px;}
+.content-login .f3{margin:14px 0 0 38px;}
+.content-login .f4{width:295px;margin:10px 0 0 38px;font-size:14px;}
+.f4 .f4-left{float:left;}
+.f4 .f4-left .check{width:14px;height:14px;vertical-align: middle;}
+.f4 .f4-right{float:right;color:#4497f4;}
+.f4 .f4-right div{display: none;}
+.f5{
+ width:100%;
+ height:42px;
+ background-color:#d00b0b;
+ color:#fff;
+ border:none;
+}
+.f6{font-size:14px;margin:8px 0 0 42px;color:#afafaf;}
+.f6 .yellow{color:#f29107;}
+.content-login .verify-box{
+ margin:14px 0 0 38px;
+}
+.content-login .inp-verify{width:90px; height:34px;border:1px #e3e3e3 solid;float:left; padding: 0 4px;}
+.right .refresh{font:13px Microsoft Yahei;color:#afafaf; text-decoration:underline;}
+
+/*******content-login  结束***********/
+
+
+/*******content-register  开始***********/
+.content-register{
+ margin:40px auto 40px;
+ font-size: 17px;
+ color:#494949;
+ background:url(../../image/passport/bg-pic.jpg) no-repeat bottom;
+ background-size: 70% auto;
+}
+.content-register .middle{
+ width:70%;
+ max-width: 980px;
+ margin:0 auto;
+ border:1px #e3e3e3 solid;
+ background:#fff;
+}
+.content-register .input-group-addon,
+.forgot-password .input-group-addon{
+ padding: 0;
+ border-top-right-radius: 0;
+ border-bottom-right-radius: 0;
+ border-color: #e3e3e3;
+}
+.content-register .mobile-check,
+.forgot-password .mobile-check{
+ height: 100%;
+ border-style: none;
+ background-color: transparent;
+}
+
+.content-register .form-horizontal{
+ margin: 20px 30px;
+}
+
+.content-register .modal-img-verify{
+ top: 20%;
+}
+
+.content-register .inp-verify{
+ width: 130px;
+ padding: 5px;
+}
+
+.content-register .modal-img-verify .error{
+ font-size: 14px;
+ color: #ed4a4a;
+ line-height: 24px;
+}
+
+
+.form-group .hint{font-size: 14px;}
+.form-control{
+ height: 40px;
+ border-radius: 0;
+ border-color: #e3e3e3;
+ box-shadow: none;
+}
+
+.input-group .inp-code{width: auto;}
+
+
+.middle .r1{
+ padding: 0 10px;
+ border-bottom:1px #e3e3e3 solid;
+ background:#f6f6f6;
+}
+.middle .heading{
+ font-size: inherit;
+ text-align: center;
+ line-height:46px;
+}
+.word1{width:100px;margin-left:223px;text-align:right;float:left;}
+.middle .ipt{width:400px;height:40px;padding:0px;border:1px #e3e3e3 solid;font:15px #afafaf;
+              font-family:Microsoft Yahei;text-align:inherit;padding-left:13px;float:left;margin-left:20px;}
+.middle .r2{margin-top:30px;height:40px;}
+.middle .r3{margin-top:14px;height:40px;}
+.middle .ver-1{margin:14px 0 0 343px;height:38px;}
+.ver-1 .verify{height:40px;}
+.ver-1 .frame{width:110px;height:38px;border:1px #e3e3e3 solid;float:left;padding:0;}
+.ver-1 .Refresh{font:13px Microsoft Yahei;color:#afafaf;text-decoration:underline;}
+.ver-1 .verify .r4{width:110px;height:38px;background:#f6f6f6;border:1px #e3e3e3 solid;
+                    color:#575757;font:16px Microsoft Yahei;line-height:38px;margin-left:17px;}
+.ver-red2{font-size:14px;color:#ed4a4a;margin:6px 0 0 343px;}
+.middle .r5{font-size:14px; color:#797979;}
+.r5 .check{width:14px;height:14px;vertical-align: middle;}
+.r5 .clause{color:#2e85f1; cursor: pointer;}
+.middle .f5{
+ float:left;
+ width:220px;
+ margin-top:30px;
+}
+.middle .f6{float:left;margin:44px 0 0 10px;}
+/*******content-register  结束***********/
+
+
+/* 填写审核信息 */
+#registryEditDetail{
+  margin: 20px auto;
+  background-color: #f4f4f4;
+  padding: 10px 40px 40px;
+  width: 728px;
+}
+#registryEditDetail .registryEditDetailError {
+  color: #EA5200;
+  margin-left: 156px;
+}
+
+#registryEditDetail .widget-content {}
+#registryEditDetail #corporationdetailAddress{
+  height:90px;
+}
+
+
+#registryEditDetail .heading {
+ text-align: center;
+ line-height: 60px;
+}
+
+#registryEditDetail .welcome-div {
+  text-align: center;
+}
+
+#registryEditDetail .welcome {
+  font-size: 20px;
+  color: #bdbbbf;
+}
+
+#registryEditDetail .companyName {
+  font-size: 20px;
+}
+.jianju {
+  margin-right: 11px;
+}
+#registryEditDetail .line {
+  border-top: 1px dashed #CCCCCC;
+  margin: 10px 0;
+}
+
+#registryEditDetail .businessLicense {
+  margin-bottom: 4px;
+}
+
+#registryEditDetail .businessLicense > div {
+  display: inline-block;
+  position: relative;
+  width: 90px;
+  height: 90px;
+  vertical-align: top;
+  margin: 0 8px 8px 0;
+  border: 1px solid #BBBBBB;
+}
+
+#registryEditDetail .businessLicense .fa {
+  display: none;
+}
+
+#registryEditDetail .businessLicense > div:hover .fa {
+  display: block;
+  position: absolute;
+  color: red;
+  right: 2px;
+  top: 2px;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+}
+
+#registryEditDetail .businessLicense img {
+  width: 100%;
+  height: 100%;
+}
+#registryEditDetail .error-container-area{
+  display:none;
+}
+#registryEditDetail .error-container{
+  display:none;
+}
+.qq-uploader{
+ margin-bottom: 10px;
+}
+
+#registry_license_upload .qq-upload-list {
+ float: left;
+ margin-top: 6px;
+ white-space: nowrap;
+}
+/*
+#registryEditDetail .upload-license > div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#registryEditDetail .upload-license > div:first-child {
+  width: 108px;
+  padding-top: 3px;
+}
+
+#registryEditDetail .upload-license > div:last-child {
+  width: calc(100% - 125px);
+  padding-left: 3px;
+}
+*/
+#registryEditDetail .button {
+  width: 100%;
+  padding: 20px 215px 0px 215px;
+}
+#registryEditDetail .popover fade bottom in{
+  left: 15px;
+}
+#registryEditDetail #selected-product-brand{
+  font-size: 16px;
+  color: #373737;
+}
+
+.qq-upload-button {
+  float: left;
+  width: 105px;
+  margin-right: 10px;
+  border-bottom: 1px solid #ddd;color:#fff;
+  background-color: #880000;
+  text-align: center;
+  line-height: 34px;
+}
+
+.qq-upload-button input[type=file] {
+ position: absolute;
+ top: 0;
+ opacity: 0;
+}
+.qq-upload-button-hover{
+ background-color:#cc0000;
+}
+
+/* 入驻信息展示 */
+#registryDetailPreview .widget-box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#registryDetailPreview .widget-status {
+  min-height: 167px;
+  margin: auto;
+  width: 57%;
+  padding: 22px 0;
+}
+.fa-info-circle {
+  color: #1a6af5;
+  font-size: 88px;
+  margin-top: 40px;
+}
+
+.preview-status {
+  padding: 60px 0px 0px 0px;
+}
+.previewColor1 {
+  color: #a5a3a7;
+}
+
+.previewColor2 {
+  color: #1a6af5;
+  font-size: 12px;
+}
+
+#registryDetailPreview .widget-content {
+  background-color: #f4f4f4;
+  border: 1px solid #cdcdcd;
+  padding: 1px 40px 20px 10px;
+  width: 60%;
+  margin: auto;
+}
+
+#registryDetailPreview .widget-content h4{
+ margin: 10px 0;
+ text-align: center;
+}
+
+#registryDetailPreview .message {
+  padding: 10px 0px 0px 52px;
+}
+.rowSpace {
+  padding: 10px 0px 0px 0px;
+}
+.registryDetailPreviewName {
+  color: #a5a3a7;
+  text-align: right;
+}
+
+.registryDetailPreviewValue {
+  text-align: left;
+}
+
+#businessContacts>div {
+  margin: 0px 10px 0px 0px;
+  width: 90px;
+}
+
+#businessContacts>div img {
+  border: 1px solid #cdcdcd;
+  width: 90px;
+  height: 90px;
+}
+#registryDetailPreview .line {
+  border-top: 1px dashed #CCCCCC;
+  margin: 10px 40px 10px 10px;
+}
+
+#registryDetailPreview .button{
+width: 36%;
+padding: 110px 0px 0px 0px;
+/* padding: 0px 0px 0px 0px; */
+margin: 0px 0px 0px 134px;
+}
+#registryDetailPreview .registryDetailBtnPreview{
+  width:30%;
+  background: #ed0c01;
+  color: white;
+  border-color: #ed0c01;
+}
+#registryDetailPreview .widget-status > div{
+  padding: 10px 0px 0px 0px;
+}
+#registryDetailPreview .registryReviewedFalse,.registryReviewedSuccess,.registryNotReviewed{
+  display:none;
+}
+
+#registryDetailPreview .col-sm-1{
+  font-size:20px;
+  width:4.333333%;
+}
+#registryDetailPreview .fa-check-circle{
+  color: #0ae545;
+}
+
+#registryDetailPreview .fa-times-circle{
+color: #e40d18;
+}
+
+#registerDetailform .form-group{
+  margin-bottom: 10px;
+}
+#registerDetailform .form-group label.error{
+  margin-top: 10px;
+  line-height: 1;
+}
+
+#register .margin {
+  margin-top: -15px;
+}
+
+
+/*忘记密码*/
+.forgot-password{
+ max-width: 500px;
+ margin: 50px auto;
+}
+.forgot-password .title{
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+.forgot-password .phoneCode {
+  margin-top: 20px;
+}
+
+.forgot-password .nextSteps {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.forgot-password .lastSteps {
+  width: 100%;
+}
+
+.forgot-password .passwordUpdate>div>form>div {
+  margin-bottom: 20px;
+}
+
+.forgot-password .passwordUpdate>div>form>div>span {
+  width: 28%;
+}
+
+#checkMobile .authcode-container span button.inactive {
+  color: darkgrey;
+}
+.forgot-password .error{
+  color: #ed4a4a;
+}
+
+.forgot-password .inp-verify{
+ width: 130px;
+ padding: 5px;
+}
+
+
+
+/*修改密码*/
+.password-edit{
+ max-width: 700px;
+ margin: 0 auto;
+ padding: 0 20px;
+}
+
+.password-edit .heading{
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+
+.footer{
+  background-color: #f9f9f9;
+}
+
+.footer .right img {
+  weight: 158px;
+  height: 158px;
+}
+
+.login-nav{
+ border-top:1px #e8e8e8 solid;
+}
+.login-nav-bd{
+ max-width:1300px; margin:0 auto;
+}
+.login-nav .left-words{
+ float:left;
+ width: calc( 100% - 168px);
+ margin: 20px 0;
+}
+.left-words .w{
+ float:left;
+ min-width: 120px;
+ width:20%;
+ height:220px;
+ border-left:1px #e2e2e2 dashed;
+}
+.w ul{margin-left:25px;}
+.w .w2{margin-top:10px;color:#979797;font-size:15px;}
+.w .w2 a:hover{color:#4497f4;}
+.login-nav .right{
+ float:right;
+ margin-right: 10px;
+}
+.login-nav .right .pic{margin-top:37px;}
+.login-nav .right .word{margin:10px 0 0 35px;}
+
+.footer-copyright{
+ height:110px; border-top:1px #e8e8e8 solid;
+}
+.footer-copyright p{text-align:center;color:#8f8e8e;padding-top:48px;font:12px Microsoft Yahei;line-height:25px;margin:0;}
+/*login-nav 结束*/
+
+

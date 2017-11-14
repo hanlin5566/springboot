@@ -1,0 +1,66 @@
+/* 省市区选择css */
+.area-select-parent {
+  display:inline-block;
+  position: relative;
+}
+
+.area-select-list-popover {
+  width: 432px;
+  max-width: 508px;
+  min-width: 432px;
+  left: 0 !important;
+}
+
+/* .area-select-list-popover .arrow {
+  left: 80px !important;
+} */
+
+.area-select-list .nav-tabs {
+  border-bottom: 1px solid #edd28b;
+}
+
+.area-select-list .nav-tabs a {
+  padding: 5px 8px;
+  font-family: Arial, Verdana, "宋体";
+  font-size: 12px;
+}
+
+.area-select-list .nav-tabs li.active a {
+  border: 1px solid #edd28b;
+  border-bottom-color: transparent;
+}
+
+.area-select-list .tab-content {
+  min-height: 201px;
+}
+
+.area-select-list .tab-content ul {
+  list-style:none;
+  padding: 0;
+}
+
+.area-select-list .tab-content li {
+  float:left;
+  min-width:95px;
+  clear: none;
+  list-style:none;
+  padding: 5px 0;
+  white-space:nowrap;
+}
+
+.area-select-list .tab-content a {
+  font-size:12px;
+  font-family: Arial, Verdana, "宋体";
+  color: #005aa0;
+  padding: 3px 8px;
+}
+
+.area-select-list .tab-content a:hover {
+  color: white;
+  background-color: #035390;
+}
+
+.area-select-list .tab-content a.active {
+  border : 1px dashed #edd28b;
+}
+

@@ -1,0 +1,11 @@
+# .gitignore_global
+####################################
+############# project about #############
+####################################
+*.log
+*.project
+*.gitattributes
+.settings
+target
+/operation-service/.gitignore
+/operations-front/.gitignore

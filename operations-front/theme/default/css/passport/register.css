@@ -1,0 +1,318 @@
+@charset "utf-8";
+
+/* 登录注册 */
+#register #userPropType > div label{
+  margin-right: 10px;
+}
+#register .widget-box {
+  padding: 20px 0;
+  background-color: #F1F0EE;
+}
+
+#register .widget-content {
+  background-color: white;
+  border-bottom: 1px solid #cdcdcd;
+  padding: 1px 15px 20px 40px;
+  width: 55%;
+  margin: auto;
+}
+/* 短信验证码 */
+#register .authcode-container span {
+  padding: 0;
+}
+
+#register .authcode-container span button {
+  height: 100%;
+  padding-left: 19px;
+  padding-right: 19px;
+}
+
+#register .authcode-container span button.inactive {
+  color:darkgrey;
+}
+
+#register .gotoLogin{
+  text-align: center;
+  padding-top: 19px;
+}
+#register .heading {
+  text-align: center;
+}
+
+#register .heading2 {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 0;
+  padding-bottom: 8px;
+}
+
+#register .registerError {
+  color: #EA5200;
+}
+
+#register .micarclause {
+  text-align: center;
+}
+
+#register .mobile-check {
+  background-color: Transparent;
+  border-style: none;
+}
+#register .agree {
+  display: inline;
+  margin-right: 15px;
+}
+
+#register .registry-line {
+  border-top: 1px dashed #CCCCCC;
+  margin: 10px 0;
+}
+
+#register .button {
+  width: 25%;
+  margin: 0 auto;
+}
+
+/* 填写审核信息 */
+#registryEditDetail .widget-box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+#registryEditDetail .registryEditDetailError {
+  color: #EA5200;
+  margin-left: 156px;
+}
+
+#registryEditDetail .widget-content {
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #cdcdcd;
+  padding: 1px 40px 0px 10px;
+  width: 728px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+#registryEditDetail #corporationdetailAddress{
+  height:90px;
+}
+#registryEditDetail .tab {
+  padding: 0px 0px 0px 80px;
+}
+
+#registryEditDetail .heading {
+  text-align: center;
+}
+
+#registryEditDetail .welcome-div {
+  text-align: center;
+}
+
+#registryEditDetail .welcome {
+  font-size: 20px;
+  color: #bdbbbf;
+}
+
+#registryEditDetail .companyName {
+  font-size: 20px;
+}
+.jianju {
+  margin-right: 11px;
+}
+#registryEditDetail .line {
+  border-top: 1px dashed #CCCCCC;
+  margin: 10px 40px 10px 10px;
+}
+
+#registryEditDetail .businessLicense {
+  margin-bottom: 4px;
+}
+
+#registryEditDetail .businessLicense > div {
+  display: inline-block;
+  position: relative;
+  width: 90px;
+  height: 90px;
+  vertical-align: top;
+  margin: 0 8px 8px 0;
+  border: 1px solid #BBBBBB;
+}
+
+#registryEditDetail .businessLicense .fa {
+  display: none;
+}
+
+#registryEditDetail .businessLicense > div:hover .fa {
+  display: block;
+  position: absolute;
+  color: red;
+  right: 2px;
+  top: 2px;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+}
+
+#registryEditDetail .businessLicense img {
+  width: 100%;
+  height: 100%;
+}
+#registryEditDetail .error-container-area{
+  display:none;
+}
+#registryEditDetail .error-container{
+  display:none;
+}
+#registryEditDetail .upload-license #registry_license_upload {
+  height: 37px;
+}
+
+#registry_license_upload .qq-upload-list {
+  display: block;
+  white-space: nowrap;
+}
+
+#registryEditDetail .upload-license > div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#registryEditDetail .upload-license > div:first-child {
+  width: 108px;
+  padding-top: 3px;
+}
+
+#registryEditDetail .upload-license > div:last-child {
+  width: calc(100% - 125px);
+  padding-left: 3px;
+}
+
+#registryEditDetail .button {
+  width: 100%;
+  padding: 20px 215px 0px 215px;
+}
+#registryEditDetail .popover fade bottom in{
+  left: 15px;
+}
+#registryEditDetail #selected-product-brand{
+  font-size: 16px;
+  color: #373737;
+}
+
+/* 入驻信息展示 */
+#registryDetailPreview .widget-box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#registryDetailPreview .widget-status {
+  min-height: 167px;
+  margin: auto;
+  width: 57%;
+  padding: 22px 0;
+}
+.fa-info-circle {
+  color: #1a6af5;
+  font-size: 88px;
+  margin-top: 40px;
+}
+
+.preview-status {
+  padding: 60px 0px 0px 0px;
+}
+.previewColor1 {
+  color: #a5a3a7;
+}
+
+.previewColor2 {
+  color: #1a6af5;
+  font-size: 12px;
+}
+
+#registryDetailPreview .widget-content {
+  background-color: #f4f4f4;
+  border: 1px solid #cdcdcd;
+  padding: 1px 40px 20px 10px;
+  width: 60%;
+  margin: auto;
+}
+
+#registryDetailPreview .message {
+  padding: 10px 0px 0px 52px;
+}
+.rowSpace {
+  padding: 10px 0px 0px 0px;
+}
+.registryDetailPreviewName {
+  color: #a5a3a7;
+  text-align: right;
+}
+
+.registryDetailPreviewValue {
+  text-align: left;
+}
+
+#businessContacts>div {
+  margin: 0px 10px 0px 0px;
+  width: 90px;
+}
+
+#businessContacts>div img {
+  border: 1px solid #cdcdcd;
+  width: 90px;
+  height: 90px;
+}
+#registryDetailPreview .line {
+  border-top: 1px dashed #CCCCCC;
+  margin: 10px 40px 10px 10px;
+}
+
+#registryDetailPreview .button{
+width: 36%;
+padding: 110px 0px 0px 0px;
+/* padding: 0px 0px 0px 0px; */
+margin: 0px 0px 0px 134px;
+}
+#registryDetailPreview .registryDetailBtnPreview{
+  width:30%;
+  background: #ed0c01;
+  color: white;
+  border-color: #ed0c01;
+}
+#registryDetailPreview .widget-status > div{
+  padding: 10px 0px 0px 0px;
+}
+#registryDetailPreview .registryReviewedFalse,.registryReviewedSuccess,.registryNotReviewed{
+  display:none;
+}
+
+#registryDetailPreview .col-sm-1{
+  font-size:20px;
+  width:4.333333%;
+}
+#registryDetailPreview .fa-check-circle{
+  color: #0ae545;
+}
+
+#registryDetailPreview .fa-times-circle{
+color: #e40d18;
+}
+
+#registerDetailform .form-group{
+  margin-bottom: 10px;
+}
+#registerDetailform .form-group label.error{
+  margin-top: 10px;
+  line-height: 1;
+}
+
+#register .hint {
+  color: blue;
+}
+
+#register .margin {
+  margin-top: -15px;
+}

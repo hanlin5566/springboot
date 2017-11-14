@@ -1,0 +1,178 @@
+/* CSS Document */
+
+
+ .top{
+  min-width:980px;
+  max-width:1300px;
+  margin:0 auto;
+ }
+ .top-hd{
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+ }
+ .top-bd{
+  float: right;
+ }
+ .top-bd .menu{
+  float:left;
+  margin-right: 20px;
+ }
+
+.top-bd .menu li{
+ float:left;
+ height:82px;
+ margin:0 7px;
+}
+.top-bd .menu a{line-height:82px; font-weight:bold;}
+.top-bd .menu a img{margin-left:15px;}
+.top-bd .weima{float:right;}
+.top-bd .weima img{vertical-align: top;}
+.top-bd .menu li:hover,
+.top-bd .menu .active{background:url(../images/sanjiao2.png) no-repeat center bottom;}
+.top-bd .menu .active a{color:#dc030b;}
+
+
+/*home page*/
+.home-nav{padding-top:13px; padding-bottom:13px; background-color:#f9f9f9;}
+.home-nav ul li{float:right;width:25%;cursor: pointer; margin-right:90px;}
+.home-nav img{width: 100%; height: 100%;}
+
+.swiper-pagination-bullet{
+ width: 28px;
+ height:6px;
+ border-radius: 0;
+ background-color:#dc030b;
+}
+
+.swiper-slide img{
+ width: 100%;
+ vertical-align: top;
+}
+
+
+
+.content{
+ min-width:980px;
+ max-width:1300px;
+ margin:0 auto;
+}
+.content .side{
+ float:left;
+ width:219px;
+ height:480px;
+ border-right:1px solid #ececec;
+ font-size:16px;
+}
+
+
+.side-menu{margin-top: 50px;}
+
+.side-menu .item{
+ display: block;
+ width:168px;height:38px;
+ margin-top:15px;
+ background-color: #5e5e5e;
+ color:#fff;
+ text-align:center;
+ line-height:38px;
+ cursor: pointer;
+}
+.side-menu .current{
+ background-color: #ba0808;
+}
+
+.main{
+ float:left;
+ width: calc(98% - 300px);
+ height:480px;
+ margin-top:45px;
+ padding-left: 40px;
+ padding-right: 40px;
+ overflow-y:scroll;
+}
+.main .words{
+ display:none;
+ font-size: 16px;
+ line-height:35px;color:#656565;
+}
+
+.main .words .img-full{
+ width:100%;
+ height:100%;
+}
+
+/**************about us 开始**************/
+
+.banner img{width:100%;height:100%; vertical-align: top;}
+
+/******************about us 结束***********************/
+
+
+/**********************help 开始****************************/
+
+.content-help a{margin-left:38px;font:100 16px Microsoft Yahei;letter-spacing:1px;line-height:38px;}
+.content-help .side{height:880px;}
+.side-menu-help .item{
+ margin-top:1px;
+}
+
+.content-help .main{height:880px;}
+
+/**********************help 结束***************************/
+
+
+
+/**********************contact us 开始*************************************/
+.banner2{border-bottom:1px solid #e7e7e7;}
+.banner2 img{width:100%;height:100%;vertical-align: top;}
+
+.content-contactus{
+ min-width:980px;
+ max-width:1300px;
+ height:379px;
+ margin:0 auto;
+ border-left:1px solid #ececec;
+ border-right:1px solid #ececec;
+}
+.content-contactus .left{float:left;width:650px;height:379px;border-right:1px solid #ececec;}
+.content-contactus .left .on{height:189px;border-bottom:1px solid #ececec;}
+.content-contactus .left a{margin-left:40px;font:100 16px Microsoft Yahei;letter-spacing:1px;line-height:30px;}
+.content-contactus .right{text-align:center;}
+.content-contactus .right a{font:100 16px Microsoft Yahei;letter-spacing:1px;}
+
+/**********************contact us 结束*************************************/
+
+
+
+
+ .ifr-footer{background-color:#f9f9f9;}
+ .copyright{background-color:#f9f9f9;}
+ .copyright p{
+  text-align:center;
+  color:#8f8e8e;
+  font:12px Microsoft Yahei;
+  line-height:25px;
+  margin: 0;
+  padding:20px 0;
+
+ }
+
+.line{margin-top: -1px; border-bottom:1px #dbdbdb solid;}
+
+
+
+/*----------------------------------------------------- 设备适配(start) --*/
+
+
+ @media screen and (max-width:1020px){
+  .top-bd .menu{
+   margin-right: 0;
+  }
+
+  .top-bd .menu li{margin: 0 4px;}
+  .top-bd .menu a img{margin-left: 8px;}
+
+ }
+
+/*----------------------------------------------------- 设备适配(end) --*/

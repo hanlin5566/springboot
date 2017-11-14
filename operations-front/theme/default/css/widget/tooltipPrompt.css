@@ -1,0 +1,22 @@
+.tooltip-prompt {
+  top: 30%;
+  left: 48%;
+  display: none;
+  opacity: 0.9;
+}
+
+.tooltip-prompt .popover-content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.tooltip-prompt .popover-content .fa {
+  color: #23D823;
+  font-size: 18px;
+}
+
+.tooltip-prompt .popover-content i,
+.tooltip-prompt .popover-content div {
+  display: inline-block;
+  vertical-align: middle;
+}

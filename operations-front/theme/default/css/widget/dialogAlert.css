@@ -1,0 +1,54 @@
+.dialog-alert .modal-dialog {
+  width: 300px;
+}
+
+.dialog-alert .modal-content {
+  border-radius: initial;
+  margin-top: 100px;
+}
+
+.dialog-alert .modal-header {
+  border-bottom: 0;
+  padding: 0;
+  height: 30px;
+}
+
+.dialog-alert .modal-header button {
+  margin-top: 7px;
+  margin-right: 12px;
+}
+
+.dialog-alert .modal-header button .fa {
+  font-size: 18px;
+}
+
+.dialog-alert .modal-body {
+  background-color : transparent;
+  padding: 0 15px 0 20px;
+  border : 0;
+  margin : 0;
+}
+
+.dialog-alert .modal-body > div {
+  vertical-align : top;
+}
+
+.dialog-alert .modal-body .fa {
+  font-size : 28px;
+}
+
+.dialog-alert .modal-body .fa-info-circle {
+  
+}
+
+.dialog-alert .modal-body .fa-exclamation-circle {
+  color: #ff8800;
+}
+
+.dialog-alert .modal-body .fa-times-circle {
+  color: #ff5d2f;
+}
+
+.dialog-alert .modal-footer {
+  border-top : 0;
+}

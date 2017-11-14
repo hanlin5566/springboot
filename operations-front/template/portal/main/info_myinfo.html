@@ -1,0 +1,91 @@
+<script id="tpl_info_myinfo" type="text/x-jsrender">
+<div class="long-main-content">
+	<div class="long-main-title">
+    	<h1>个人信息</h1>
+    </div>
+    <div class="personinfo-con">
+    	<ul>
+       </ul>
+    </div>
+	<div id="gray"></div>
+		<div class="popup" id="popup3">
+			<div class="top_nav" id='top_nav'>
+				<div class="popup-title">
+					<span>验证手机</span>
+					<a class="close-popup iconfont icon-close"></a>
+				</div>
+			</div>
+		    <div class="formwrap">
+		         <p><label>手机号</label><input name="oldCellPhone" id="cellPhone" type="text" placeholder="请输入手机号" maxlength="11"><a class="default-btn yzm" name="oldYzm">获取验证码</a></p>
+		        <p><label>验证码</label><input name="oldAuthCode" type="text" placeholder="请输入验证码" maxlength="6"></p>
+		        <p><a href="#" class="default-btn" style="margin-left:100px" name='oldPhoneConfirm'>下一步</a></p>
+		    </div>
+		</div>
+
+		<div class="popup" id="popup">
+			<div class="top_nav" id='top_nav'>
+				<div class="popup-title">
+					<span>修改手机</span>
+					<a class="close-popup iconfont icon-close"></a>
+				</div>
+			</div>
+		    <div class="formwrap">
+		         <p><label>手机号</label><input name="cellPhone" id="cellPhone" type="text" placeholder="请输入新手机号" maxlength="11"><a class="default-btn yzm" name="yzm">获取验证码</a></p>
+		        <p><label>验证码</label><input name="authCode" type="text" placeholder="请输入验证码" maxlength="6"></p>
+		        <p><a href="#" class="default-btn" style="margin-left:100px" name='phoneConfirm'>确定</a></p>
+		    </div>
+		</div>
+	<div class="popup" id="popup2">
+		<div class="top_nav" id='top_nav'>
+			<div class="popup-title">
+				<span>修改密码</span>
+				<a class="close-popup iconfont icon-close"></a>
+			</div>
+		</div>
+	    <div class="formwrap text-center">
+	        <p><label>当前密码</label><input name="password" type="password" placeholder="请输入原密码" maxlength="11"></p>
+	        <p><label>新的密码</label><input name="newPassword" type="password" placeholder="请输入新密码" maxlength="6"></p>
+	        <p><label>确定密码</label><input name="newPasswordConfirm" type="password" placeholder="请确认新密码" maxlength="6"></p>
+	        <p><a class="default-btn disabled-btn">取消</a><a class="default-btn" name="pwdConfirm">保存</a></p>
+	    </div>
+	</div>
+</div>
+
+</script >
+<script id="tpl_info_myinfo_item">
+<li>
+	<div class="pull-left userpic"><img src="{{:portrait}}"></div>
+	<div class="pull-left"><span class="block username">{{:realName}}</span><span>{{:gender}}</span></div>
+</li>
+<li>
+	<div class="inner-title"><span>姓名</span>{{:realName}}</div>
+	<div class="inner-title"><span>职务</span>{{:userType}}</div>
+	<div class="inner-title"><span>学校</span>{{:schoolName}}</div>
+	<div class="inner-title"><span>教学阶段</span>{{:classNames}}</div>
+	<div class="inner-title"><span>邮箱</span>{{:email}}</div>
+</li>
+<li>
+	<div class="change-wrap mgb20">
+		<span class="pull-left iconfont icon-iphone"></span>
+	    <span class="pull-left" name="bindCellphone">手机号<em class="block">{{:isValidate}}  {{:cellphone}}</em></span>
+	    <a class="pull-right personbtn tc">修改</a>
+	</div>
+	<div class="change-wrap">
+		<span class="pull-left iconfont icon-suo"></span>
+		<span class="pull-left">密码<em class="block">{{:isSet}}</em></span>
+	    <a class="pull-right personbtn changepass">修改</a>
+	</div>
+</li>
+<li>
+	<div class="change-wrap mgb20">
+		<span class="pull-left iconfont icon-qq"></span>
+	    <span class="pull-left">QQ<em class="block">{{:qqIsBind}}</em></span>
+	    <a href="#" class="pull-right personbtn">绑定</a>
+	</div>
+	<div class="change-wrap">
+		<span class="pull-left iconfont icon-weixin"></span>
+		<span class="pull-left">微信<em class="block">{{:weichatIsBind}}</em></span>
+	    <a href="#" class="pull-right personbtn">绑定</a>
+	</div>
+</li>
+</script>

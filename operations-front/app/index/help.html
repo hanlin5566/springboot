@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="baidu-site-verification" content="s2PIVPtSw4" />
+  <title>米卡会O2O智能云销系统</title>
+  <link href="./theme/default/image/favicon.ico" rel="icon" >
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/master.css" />
+</head>
+
+<body>
+<div class="top clearfix">
+  <div class="top-hd">
+    <a title="返回首页" href="../homepage.html"><img src="images/logo.png" style="width:186px;"/></a>
+  </div>
+  <div class="top-bd">
+    <div class="menu">
+      <ul>
+        <li><a href="../homepage.html">首页HOME<img src="images/line.png"/></a></li>
+        <li><a href="value.html">价值优势VALUE<img src="images/line.png"/></a></li>
+        <li><a href="about.html">关于我们ABOUT US<img src="images/line.png"/></a></li>
+        <li class="active"><a href="help.html">使用帮助HELP<img src="images/line.png"/></a></li>
+        <li><a href="contact.html">联系我们CONTACT US</a></li>
+		<li><a href="../app/passport.html?menuCode=login">系统管理 SYSTEM MANAGEMENT</a></li>
+      </ul>
+    </div>
+    <div class="weima"><img src="images/micar_red_erweima.jpg"/></div>
+  </div>
+</div>
+<div class="line"></div>
+<!--top结束-->
+
+<div class="content content-help clearfix">
+  <div class="side side-menu side-menu-help">
+    <div id="a1" class="item current">
+     供应商注册登录
+    </div>
+    <div id="a2" class="item">
+    服务商注册登录
+    </div>
+    <div id="a3" class="item">
+     终端商注册登录
+    </div>
+    <div id="a4" class="item">
+    支付方式
+    </div>
+  </div>
+
+  <div class="main right-help">
+   <div id="words1" class="words" style="display: block;">
+     <img class="img-full" src="images/pic2.jpg" />
+   </div>
+   <div id="words2" class="words">
+    <img class="img-full" src="images/pic3.jpg" />
+   </div>
+   <div id="words3" class="words"> <img class="img-full" src="images/pic4.jpg" />子公司有广州九州传
+   </div>
+   <div id="words4" class="words"> <img class="img-full" src="images/pic5.jpg" />
+   </div>
+  <!-- <div id="words5" class="words">广告有限公司、广州九州塔苏斯展览有限公司、广州米卡会汽车用品有限公司、广州九州汇用品有限公司、广州九州汇展商务有限公司展商务有限公司等。
+   </div>
+   <div id="words6" class="words">广告有限公司、广州九州塔苏斯展览有限公司、广州米卡会汽车用品有限公司、广州九州汇用品有限公司、广州九州汇展商务有限公司展商务有限公司等。
+   </div>-->
+   <!--<div class="scoroll"></div>-->
+  </div>
+</div>
+
+<div class="ifr-footer">
+  <iframe MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no src="footer-copyright.html" width="100%" height="100px"></iframe>
+</div>
+
+<script type="text/javascript" src="../js/lib/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+$('.side-menu .item').click(function(){
+  var _this = $(this);
+  var i = _this.index();
+  _this.addClass('current').siblings().removeClass('current');
+  $('.main .words').eq(i).show().siblings().hide();
+})
+</script>
+
+</body>
+</html>

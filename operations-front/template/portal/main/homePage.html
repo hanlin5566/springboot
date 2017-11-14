@@ -1,0 +1,509 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<meta name="viewport" content="width=device-width">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>首页</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css/mobiscroll.css" type="text/css" />
+<link rel="stylesheet" href="css/ssi-uploader.min.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/timez.css" />
+<style>
+body{
+	background: url(images/img_bg_1.jpg) repeat-x top center, url(images/bg_vert.jpg) repeat-x;
+	background-attachment:fixed;
+	background-color: #333d43 ;
+    color: rgba(0,0,0,0.8);
+    font-size: 15px;
+}
+
+/*----------------------------CSS3 Animated Navigation-----------------------------*/
+.fancyNav{overflow:hidden; float:left;margin:10px auto 0; background:none}
+.fancyNav li{position:relative;float:left;list-style:none;}
+.fancyNav li:after{content:'.';text-indent:-9999px;overflow:hidden;position:absolute;width:100%;height:100%;top:0;left:0;z-index:1;opacity:0; background-color:#c31010; border-radius:4px;-moz-transition:0.25s all;-webkit-transition:0.25s all;-o-transition:0.25s all;transition:0.25s all;}
+.fancyNav li:hover:after,.fancyNav li.selected:after,.fancyNav li:target:after{opacity:1}
+.fancyNav li:hover a,.fancyNav li:hover a:active{ color:#fff; opacity:1}
+.fancyNav li a{color:#5d5d5d;display:inline-block;font:16px/1 Lobster,Arial,sans-serif;padding:12px 35px 14px;position:relative;z-index:2;text-decoration:none !important;white-space:nowrap;}
+
+</style>
+</head>
+<body>
+
+<!--<div id="ss-links" class="ss-links">
+	<a href="#november">Nov</a>
+	<a href="#october">Oct</a>
+	<a href="#september">Sep</a>
+	<a href="#august">Aug</a>
+	<a href="#july">Jul</a>
+	<a href="#june">Jun</a>
+</div>-->
+<div class="nav-header" style="width:100%">
+	<div class="" style="width:1066px; margin:auto">
+    	<div class="logo">
+            <a href="home.html"><img src="images/logo.jpg"></a>
+            <span class="logoname">优优学</span>
+            <span class="slogan">让学习更快乐</span>
+        </div>
+    	<ul class="fancyNav">
+			<li id="news"><a href="#">系统运维</a></li>
+			<li id="about"><a href="#">应用</a></li>
+			<li id="services"><a href="#">评价分析</a></li>
+			<li id="contact"><a href="#">个人中心</a></li>
+		</ul>
+		<div class="m-dwonload">
+            <div class="dwonloadbox">
+                <div class="mobile">
+                    <a href="#">
+                        <span class="emw"><img src="images/ewm.jpg"></span>
+                        <p class="iconfont icon-phone"><small>移动端</small></p>
+                    </a>
+                </div>
+                <div class="mobile">
+                    <a href="#">
+                        <span class="emw"><img src="images/ewm.jpg"></span>
+                        <p class="iconfont icon-weixin"><small>微信端</small></p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+</div>
+<div id="ss-container" class="ss-container" style=" border-radius:4px; padding:0 20px; margin-top:40px">
+	<div class="ss-row">
+		<div class="ss-left">
+			<h2 id="november" class="text-right">4月</h2>
+		</div>
+		<div class="ss-right">
+			<h2>2017</h2>
+		</div>
+	</div>
+	<div class="ss-row ss-medium">
+		<div class="ss-left text-right">4月21日<img src="images/sjzbg.png" class="jiedian"></div>
+		<div class="ss-right">
+			<div class="card">
+				<div class="card-title">课程表 <span class="pull-right color-gray">12：02：32</span></div>
+                <div class="card-con">
+                	<p>第一节：语文课<span class="pull-right color-gray">三年级一班</span></p>
+                    <p>第一节：语文课<span class="pull-right color-gray">三年级一班</span></p>
+                </div>
+			</div>
+		</div>
+	</div>
+	<div class="ss-row ss-large">
+		<div class="ss-left">
+			<div class="card">
+				<div class="card-title">我的课堂 <span class="pull-right color-gray">12：34：12</span></div>
+                <div class="card-con">
+                	<p>第一节：数学课<span class="pull-right color-gray">三年级一班</span></p>
+                </div>
+                <div class="card-footer">应携带数学教科书、几何用的卷尺、三角板等</div>
+			</div>
+		</div>
+		<div class="ss-right">4月22日<img src="images/sjzbg.png" class="jiedian"></div>
+	</div>
+	<div class="ss-row ss-small">
+		<div class="ss-left text-right">4月23日<img src="images/sjzbg.png" class="jiedian"></div>
+		<div class="ss-right">
+			<div class="card">
+				<div class="card-title">课堂评价 <span class="pull-right color-gray">12：34：12</span></div>
+                <div class="card-con">
+                	<div class="common-wrap">
+                        <div class="col-33">语文课</div>
+                        <div class="col-33 text-center">三年一班</div>
+                        <div class="col-33 text-right">待评价</div>
+                    </div>
+                    <div class="common-wrap">
+                        <div class="col-33">数学课</div>
+                        <div class="col-33 text-center">三年三班</div>
+                        <div class="col-33 text-right">待评价</div>
+                    </div>
+                </div>
+			</div>
+		</div>
+	</div>
+	<div class="ss-row ss-medium">
+		<div class="ss-left">
+			<div class="card">
+				<div class="card-title">我的评价 <span class="pull-right color-gray">12：34：12</span></div>
+                <div class="card-con">
+                	<div class="evaluate-inside" style="background-color:#f1f1f1; border-radius:4px; padding:10px">
+                    	<p><span>语文课</span><span class="pull-right">三年一班</span></p>
+                        <p><span>综合：*****</span><span class="pull-right">评价人数：45</span></p>
+                    </div>
+                </div>
+                <div class="card-footer">本节课表现的非常好，上课认真听讲，思维活跃，积极回答问题。</div>
+			</div>
+		</div>
+		<div class="ss-right">4月23日<img src="images/sjzbg.png" class="jiedian"></div>
+	</div>
+	<div class="ss-row ss-large">
+		<div class="ss-left text-right">4月23日<img src="images/sjzbg.png" class="jiedian"></div>
+		<div class="ss-right">
+			<div class="card">
+				<div class="card-title">学校通知 <span class="pull-right color-gray">12：34：12</span></div>
+                <div class="card-con">
+                	<div class="common-wrap">今天下午请全体教师召开教师大会请提前告知今天下午请全体教师召开教师大会请提前告知今天下午请全体教师召开教师大会请提前告知</div>
+                </div>
+			</div>
+		</div>
+	</div>
+    <div class="ss-row ss-medium">
+		<div class="ss-left">
+			<div class="card">
+				<div class="card-title">布置作业 <span class="pull-right color-gray">12：34：12</span></div>
+                <div class="card-con">
+                	<div class="evaluate-inside" >
+                    	<p>作业内容作业内容作业内容作业内容作业内容作业内容作业内容作业内容作业内容作业内容作业内容作业内容作业内容作业内容作业内容</p>
+                        <p class="uploadpic">
+                            <span class="col-33"><img src="images/ewm.jpg"></span>
+                            <span class="col-33"><img src="images/userpic.jpg"></span>
+                            <span class="col-33"><img src="images/ewm.jpg"></span>
+                        </p>
+                    </div>
+                </div>
+			</div>
+		</div>
+		<div class="ss-right">4月23日<img src="images/sjzbg.png" class="jiedian"></div>
+	</div>
+	<div class="ss-row">
+		<div class="ss-left">
+			<h2 id="october" class="text-right">3月</h2>
+		</div>
+		<div class="ss-right">
+			<h2>2017</h2>
+		</div>
+	</div>
+	<div class="ss-row ss-small">
+		<div class="ss-left">
+			<div class="card">
+				<div class="card-title">请假条 <span class="pull-right color-gray">12：34：12</span></div>
+                <div class="card-con">
+                	<p>今天感冒不舒服需要去医院看看</p>
+                	<div class="evaluate-inside" style="background-color:#f1f1f1; border-radius:4px; padding:10px">
+                    	<p><span>张瑜</span><span class="pull-right">待审批</span></p>
+                        <p><span>三年一班</span><span class="pull-right">审批人：张老师</span></p>
+                    </div>
+                </div>
+                <div class="card-footer leave-state">
+					<a href="#" class="col-50 text-center" style="border-right:solid 1px #ccc">拒绝</a><a href="#" class="col-50 text-center">同意</a>             
+                </div>
+			</div>
+		</div>
+		<div class="ss-right">4月23日<img src="images/sjzbg.png" class="jiedian"></div>
+	</div>
+	<div class="ss-row ss-large">
+		<div class="ss-left text-right">4月23日<img src="images/sjzbg.png" class="jiedian"></div>
+		<div class="ss-right">
+			<div class="card">
+				<div class="card-title">布置作业 <span class="pull-right color-gray">12：34：12</span></div>
+                <div class="card-con">
+                	<div class="evaluate-inside">
+                    	<p>作业内容作业内容作业内容作业内容作业内容作业内容作业内容作业内容作业内容作业内容作业内容作业内容作业内容作业内容作业内容</p>
+                        <p class="uploadpic">
+                            <span class="col-33"><img src="images/ewm.jpg"></span>
+                            <span class="col-33"><img src="images/userpic.jpg"></span>
+                            <span class="col-33"><img src="images/ewm.jpg"></span>
+                        </p>
+                    </div>
+                    <div class="" style=" overflow:hidden;border-radius:4px; background-color:#daeafe; padding:10px; margin-top:10px">
+                    <p style="overflow:hidden"><span class="pull-left">张瑜<small class="block color-gray">语文作业</small></span><span class="pull-right">三年一班</span></p>
+                    <p style="margin-top:10px">今天的作业完成的非常出色</p>
+                    <p class="uploadpic" style="margin:0">
+                        <span class="col-33"><img src="images/ewm.jpg"></span>
+                        <span class="col-33"><img src="images/userpic.jpg"></span>
+                        <span class="col-33"><img src="images/ewm.jpg"></span>
+                    </p>
+                    </div>
+                </div>
+			</div>
+		</div>
+	</div>
+	<div class="ss-row ss-large">
+		<div class="ss-left">
+			<div class="card">
+				<div class="card-title">分享作业 <span class="pull-right color-gray">12：34：12</span></div>
+                <div class="card-con">
+                    <div class="">
+                    <p style="overflow:hidden">
+                    <span class="pull-left" style=" white-space:nowrap"><img src="images/ewm.jpg" style="width:50px; height:50px; border-radius:100%; float:left; margin-right:10px">张瑜<small class="block color-gray">语文作业</small></span></p>
+                    <p style="margin-top:10px">这篇作文写的非常好，用词准确，结构清晰，体现了中心思想，值得大家读一读。</p>
+                    <p class="uploadpic" style="margin:0">
+                        <span class="col-33"><img src="images/ewm.jpg"></span>
+                        <span class="col-33"><img src="images/userpic.jpg"></span>
+                        <span class="col-33"><img src="images/ewm.jpg"></span>
+                    </p>
+                    </div>
+                </div>
+			</div>
+		</div>
+		<div class="ss-right">4月23日<img src="images/sjzbg.png" class="jiedian"></div>
+	</div>
+</div>
+<div style="width:100%; background-color:#fff; line-height:2"><div class="" style="width:1024px; margin:auto; text-align:center; padding:20px 0; color:#999">
+	<p>版权所有 哈工大大数据集团 www.hgdsj.com</p>
+	<p>邮件：admin@hgdsj.com</p>
+    <p>备案号：京ICP证123456号</p>
+</div></div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+$(function() {
+
+	var $sidescroll	= (function() {
+			
+			// the row elements
+		var $rows			= $('#ss-container > div.ss-row'),
+			// we will cache the inviewport rows and the outside viewport rows
+			$rowsViewport, $rowsOutViewport,
+			// navigation menu links
+			$links			= $('#ss-links > a'),
+			// the window element
+			$win			= $(window),
+			// we will store the window sizes here
+			winSize			= {},
+			// used in the scroll setTimeout function
+			anim			= false,
+			// page scroll speed
+			scollPageSpeed	= 1000 ,
+			// page scroll easing
+			scollPageEasing = 'easeInOutExpo',
+			// perspective?
+			hasPerspective	= false,
+			
+			perspective		= hasPerspective && Modernizr.csstransforms3d,
+			// initialize function
+			init			= function() {
+				
+				// get window sizes
+				getWinSize();
+				// initialize events
+				initEvents();
+				// define the inviewport selector
+				defineViewport();
+				// gets the elements that match the previous selector
+				setViewportRows();
+				// if perspective add css
+				if( perspective ) {
+					$rows.css({
+						'-webkit-perspective'			: 600,
+						'-webkit-perspective-origin'	: '50% 0%'
+					});
+				}
+				// show the pointers for the inviewport rows
+				$rowsViewport.find('a.ss-circle').addClass('ss-circle-deco');
+				// set positions for each row
+				placeRows();
+				
+			},
+			// defines a selector that gathers the row elems that are initially visible.
+			// the element is visible if its top is less than the window's height.
+			// these elements will not be affected when scrolling the page.
+			defineViewport	= function() {
+			
+				$.extend( $.expr[':'], {
+				
+					inviewport	: function ( el ) {
+						if ( $(el).offset().top < winSize.height ) {
+							return true;
+						}
+						return false;
+					}
+				
+				});
+			
+			},
+			// checks which rows are initially visible 
+			setViewportRows	= function() {
+				
+				$rowsViewport 		= $rows.filter(':inviewport');
+				$rowsOutViewport	= $rows.not( $rowsViewport )
+				
+			},
+			// get window sizes
+			getWinSize		= function() {
+			
+				winSize.width	= $win.width();
+				winSize.height	= $win.height();
+			
+			},
+			// initialize some events
+			initEvents		= function() {
+				
+				// navigation menu links.
+				// scroll to the respective section.
+				$links.on( 'click.Scrolling', function( event ) {
+					
+					// scroll to the element that has id = menu's href
+					$('html, body').stop().animate({
+						scrollTop: $( $(this).attr('href') ).offset().top
+					}, scollPageSpeed, scollPageEasing );
+					
+					return false;
+				
+				});
+				
+				$(window).on({
+					// on window resize we need to redefine which rows are initially visible (this ones we will not animate).
+					'resize.Scrolling' : function( event ) {
+						
+						// get the window sizes again
+						getWinSize();
+						// redefine which rows are initially visible (:inviewport)
+						setViewportRows();
+						// remove pointers for every row
+						$rows.find('a.ss-circle').removeClass('ss-circle-deco');
+						// show inviewport rows and respective pointers
+						$rowsViewport.each( function() {
+						
+							$(this).find('div.ss-left')
+								   .css({ left   : '0%' })
+								   .end()
+								   .find('div.ss-right')
+								   .css({ right  : '0%' })
+								   .end()
+								   .find('a.ss-circle')
+								   .addClass('ss-circle-deco');
+						
+						});
+					
+					},
+					// when scrolling the page change the position of each row	
+					'scroll.Scrolling' : function( event ) {
+						
+						// set a timeout to avoid that the 
+						// placeRows function gets called on every scroll trigger
+						if( anim ) return false;
+						anim = true;
+						setTimeout( function() {
+							
+							placeRows();
+							anim = false;
+							
+						}, 10 );
+					
+					}
+				});
+			
+			},
+			// sets the position of the rows (left and right row elements).
+			// Both of these elements will start with -50% for the left/right (not visible)
+			// and this value should be 0% (final position) when the element is on the
+			// center of the window.
+			placeRows		= function() {
+				
+					// how much we scrolled so far
+				var winscroll	= $win.scrollTop(),
+					// the y value for the center of the screen
+					winCenter	= winSize.height / 2 + winscroll;
+				
+				// for every row that is not inviewport
+				$rowsOutViewport.each( function(i) {
+					
+					var $row	= $(this),
+						// the left side element
+						$rowL	= $row.find('div.ss-left'),
+						// the right side element
+						$rowR	= $row.find('div.ss-right'),
+						// top value
+						rowT	= $row.offset().top;
+					
+					// hide the row if it is under the viewport
+					if( rowT > winSize.height + winscroll ) {
+						
+						if( perspective ) {
+						
+							$rowL.css({
+								'-webkit-transform'	: 'translate3d(-75%, 0, 0) rotateY(-90deg) translate3d(-75%, 0, 0)',
+								'opacity'			: 0
+							});
+							$rowR.css({
+								'-webkit-transform'	: 'translate3d(75%, 0, 0) rotateY(90deg) translate3d(75%, 0, 0)',
+								'opacity'			: 0
+							});
+						
+						}
+						else {
+						
+							$rowL.css({ left 		: '-50%' });
+							$rowR.css({ right 		: '-50%' });
+						
+						}
+						
+					}
+					// if not, the row should become visible (0% of left/right) as it gets closer to the center of the screen.
+					else {
+							
+							// row's height
+						var rowH	= $row.height(),
+							// the value on each scrolling step will be proporcional to the distance from the center of the screen to its height
+							factor 	= ( ( ( rowT + rowH / 2 ) - winCenter ) / ( winSize.height / 2 + rowH / 2 ) ),
+							// value for the left / right of each side of the row.
+							// 0% is the limit
+							val		= Math.max( factor * 50, 0 );
+							
+						if( val <= 0 ) {
+						
+							// when 0% is reached show the pointer for that row
+							if( !$row.data('pointer') ) {
+							
+								$row.data( 'pointer', true );
+								$row.find('.ss-circle').addClass('ss-circle-deco');
+							
+							}
+						
+						}
+						else {
+							
+							// the pointer should not be shown
+							if( $row.data('pointer') ) {
+								
+								$row.data( 'pointer', false );
+								$row.find('.ss-circle').removeClass('ss-circle-deco');
+							
+							}
+							
+						}
+						
+						// set calculated values
+						if( perspective ) {
+							
+							var	t		= Math.max( factor * 75, 0 ),
+								r		= Math.max( factor * 90, 0 ),
+								o		= Math.min( Math.abs( factor - 1 ), 1 );
+							
+							$rowL.css({
+								'-webkit-transform'	: 'translate3d(-' + t + '%, 0, 0) rotateY(-' + r + 'deg) translate3d(-' + t + '%, 0, 0)',
+								'opacity'			: o
+							});
+							$rowR.css({
+								'-webkit-transform'	: 'translate3d(' + t + '%, 0, 0) rotateY(' + r + 'deg) translate3d(' + t + '%, 0, 0)',
+								'opacity'			: o
+							});
+						
+						}
+						else {
+							
+							$rowL.css({ left 	: - val + '%' });
+							$rowR.css({ right 	: - val + '%' });
+							
+						}
+						
+					}	
+				
+				});
+			
+			};
+		
+		return { init : init };
+	
+	})();
+	
+	$sidescroll.init();
+	
+});
+</script>
+</body>
+</html>
