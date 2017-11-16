@@ -34,7 +34,7 @@ public class DerivedVariableSqlProvider {
         }
         
         if (record.getClazzPath() != null) {
-            sql.VALUES("clazz_path", "#{classPath,jdbcType=VARCHAR}");
+            sql.VALUES("clazz_path", "#{clazzPath,jdbcType=VARCHAR}");
         }
         
         if (record.getState() != null) {
@@ -80,7 +80,7 @@ public class DerivedVariableSqlProvider {
         sql.SELECT("var_code");
         sql.SELECT("query_iface");
         sql.SELECT("clazz_name");
-        sql.SELECT("class_path");
+        sql.SELECT("clazz_path");
         sql.SELECT("state");
         sql.SELECT("data_status");
         sql.SELECT("deploy_time");
@@ -123,7 +123,7 @@ public class DerivedVariableSqlProvider {
         }
         
         if (record.getClazzPath() != null) {
-            sql.SET("clazz_path = #{classPath,jdbcType=VARCHAR}");
+            sql.SET("clazz_path = #{clazzPath,jdbcType=VARCHAR}");
         }
         
         if (record.getState() != null) {

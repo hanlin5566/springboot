@@ -1,5 +1,5 @@
 define([ 'util/requestUtil', 'core/base', 'util/sessionUtil', 'util/domUtil',
-		'portal/main/config', '../../../lib/ace/ace'，], function(requestUtil, Base,
+		'portal/main/config', '../../../lib/ace/ace'], function(requestUtil, Base,
 		sessionUtil, domUtil, config) {
 	var OperaVarDetail = function() {
 	};

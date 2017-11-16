@@ -1,11 +1,10 @@
 package com.hzcf.operation.gen.entity;
 
+import com.hzcf.operation.base.enums.DataStatus;
+import com.hzcf.operation.base.enums.DerivedVarStatus;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
-import com.hzcf.operation.base.enums.DataStatus;
-import com.hzcf.operation.base.enums.DerivedVarStatus;
 
 public class DerivedVariableExample {
     /**
@@ -77,7 +76,7 @@ public class DerivedVariableExample {
     }
 
     /**
-     * t_derived_var 2017-11-10
+     * t_derived_var 2017-11-14
      */
     protected abstract static class GeneratedCriteria {
         protected List<Criterion> criteria;
@@ -530,73 +529,73 @@ public class DerivedVariableExample {
             return (Criteria) this;
         }
 
-        public Criteria andClassPathIsNull() {
-            addCriterion("class_path is null");
+        public Criteria andClazzPathIsNull() {
+            addCriterion("clazz_path is null");
             return (Criteria) this;
         }
 
-        public Criteria andClassPathIsNotNull() {
-            addCriterion("class_path is not null");
+        public Criteria andClazzPathIsNotNull() {
+            addCriterion("clazz_path is not null");
             return (Criteria) this;
         }
 
-        public Criteria andClassPathEqualTo(String value) {
-            addCriterion("class_path =", value, "classPath");
+        public Criteria andClazzPathEqualTo(String value) {
+            addCriterion("clazz_path =", value, "clazzPath");
             return (Criteria) this;
         }
 
-        public Criteria andClassPathNotEqualTo(String value) {
-            addCriterion("class_path <>", value, "classPath");
+        public Criteria andClazzPathNotEqualTo(String value) {
+            addCriterion("clazz_path <>", value, "clazzPath");
             return (Criteria) this;
         }
 
-        public Criteria andClassPathGreaterThan(String value) {
-            addCriterion("class_path >", value, "classPath");
+        public Criteria andClazzPathGreaterThan(String value) {
+            addCriterion("clazz_path >", value, "clazzPath");
             return (Criteria) this;
         }
 
-        public Criteria andClassPathGreaterThanOrEqualTo(String value) {
-            addCriterion("class_path >=", value, "classPath");
+        public Criteria andClazzPathGreaterThanOrEqualTo(String value) {
+            addCriterion("clazz_path >=", value, "clazzPath");
             return (Criteria) this;
         }
 
-        public Criteria andClassPathLessThan(String value) {
-            addCriterion("class_path <", value, "classPath");
+        public Criteria andClazzPathLessThan(String value) {
+            addCriterion("clazz_path <", value, "clazzPath");
             return (Criteria) this;
         }
 
-        public Criteria andClassPathLessThanOrEqualTo(String value) {
-            addCriterion("class_path <=", value, "classPath");
+        public Criteria andClazzPathLessThanOrEqualTo(String value) {
+            addCriterion("clazz_path <=", value, "clazzPath");
             return (Criteria) this;
         }
 
-        public Criteria andClassPathLike(String value) {
-            addCriterion("class_path like", value, "classPath");
+        public Criteria andClazzPathLike(String value) {
+            addCriterion("clazz_path like", value, "clazzPath");
             return (Criteria) this;
         }
 
-        public Criteria andClassPathNotLike(String value) {
-            addCriterion("class_path not like", value, "classPath");
+        public Criteria andClazzPathNotLike(String value) {
+            addCriterion("clazz_path not like", value, "clazzPath");
             return (Criteria) this;
         }
 
-        public Criteria andClassPathIn(List<String> values) {
-            addCriterion("class_path in", values, "classPath");
+        public Criteria andClazzPathIn(List<String> values) {
+            addCriterion("clazz_path in", values, "clazzPath");
             return (Criteria) this;
         }
 
-        public Criteria andClassPathNotIn(List<String> values) {
-            addCriterion("class_path not in", values, "classPath");
+        public Criteria andClazzPathNotIn(List<String> values) {
+            addCriterion("clazz_path not in", values, "clazzPath");
             return (Criteria) this;
         }
 
-        public Criteria andClassPathBetween(String value1, String value2) {
-            addCriterion("class_path between", value1, value2, "classPath");
+        public Criteria andClazzPathBetween(String value1, String value2) {
+            addCriterion("clazz_path between", value1, value2, "clazzPath");
             return (Criteria) this;
         }
 
-        public Criteria andClassPathNotBetween(String value1, String value2) {
-            addCriterion("class_path not between", value1, value2, "classPath");
+        public Criteria andClazzPathNotBetween(String value1, String value2) {
+            addCriterion("clazz_path not between", value1, value2, "clazzPath");
             return (Criteria) this;
         }
 
@@ -1032,7 +1031,7 @@ public class DerivedVariableExample {
     }
 
     /**
-     * t_derived_var 2017-11-10
+     * t_derived_var 2017-11-14
      */
     public static class Criterion {
         private String condition;

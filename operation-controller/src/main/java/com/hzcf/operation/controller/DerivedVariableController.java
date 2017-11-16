@@ -7,6 +7,7 @@ import java.util.UUID;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.FileCopyUtils;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -18,6 +19,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.hzcf.operation.base.entity.DerivedVariableExt;
 import com.hzcf.operation.base.entity.PageEntity;
 import com.hzcf.operation.base.entity.PageInfo;
+import com.hzcf.operation.base.exception.CustomException;
+import com.hzcf.operation.base.result.ResponseCode;
 import com.hzcf.operation.base.result.Result;
 import com.hzcf.operation.base.result.ResultPage;
 import com.hzcf.operation.base.util.BeanUtils;
@@ -70,9 +73,11 @@ public class DerivedVariableController {
 	@ApiOperation(value="保存或新增衍生变量", notes="根据衍生变量ID，保存或新增衍生变量。获取request仅为了拿到存储文件地址")
     @RequestMapping(value={""}, method=RequestMethod.POST)
 	public Result<Integer> saveOrUpdate(@RequestBody DerivedVariableExt derivedVar,HttpServletRequest request) throws Exception {
+		if(request.getSession().getAttribute("sessionId") == null){
+			throw new CustomException(ResponseCode.ERROR_PARAM, "sessionId为空");
+		}
 		if(derivedVar.getVarId()!= null){
 			//更新时，path丢了，content没地方记录。加个字段？
-			String clazzPath = derivedVar.getClazzPath();
 			derivedVariableMapper.updateByPrimaryKey(derivedVar);
 			
 		}else{
@@ -91,6 +96,10 @@ public class DerivedVariableController {
 	@ApiOperation(value="编译传入的文件", notes="编译传入的文件")
     @RequestMapping(value={"/compile"}, method=RequestMethod.POST)
 	public Result<String> compile(@RequestBody DerivedVariableExt derivedVar,HttpServletRequest request) throws Exception {
+		String content = derivedVar.getContent();
+		if(StringUtils.isEmpty(content)){
+			throw new CustomException(ResponseCode.ERROR_PARAM, "传入文件内容不能为空");
+		}
 		Result<String> result = CompileUtils.javaCodeToObject(derivedVar.getClazzPath());
 		return result;
 	}

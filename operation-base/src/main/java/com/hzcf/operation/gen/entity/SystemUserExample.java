@@ -1,11 +1,10 @@
 package com.hzcf.operation.gen.entity;
 
+import com.hzcf.operation.base.enums.DataStatus;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
-
-import com.hzcf.operation.base.enums.DataStatus;
 
 public class SystemUserExample {
     /**
@@ -77,7 +76,7 @@ public class SystemUserExample {
     }
 
     /**
-     * cbd_system_user 2017-11-10
+     * cbd_system_user 2017-11-14
      */
     protected abstract static class GeneratedCriteria {
         protected List<Criterion> criteria;
@@ -1328,7 +1327,7 @@ public class SystemUserExample {
     }
 
     /**
-     * cbd_system_user 2017-11-10
+     * cbd_system_user 2017-11-14
      */
     public static class Criterion {
         private String condition;

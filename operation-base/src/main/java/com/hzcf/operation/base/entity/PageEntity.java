@@ -3,6 +3,7 @@ package com.hzcf.operation.base.entity;
 
 /**
  * Create by hanlin on 2017年11月7日
+ * 接收分页参数的entity
  **/
 public class PageEntity{
 

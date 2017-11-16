@@ -16,6 +16,8 @@ import com.hzcf.operation.base.util.DateUtils;
  *  	 3.日期类型需要添加@DateTimeFormat(pattern = DateUtils.ISO_DATE)注解，否则接收的字符日期类型，无法传入controller。
  *  	 4.有时间需要将mybatis-gentrator生成bean自动根据参数类型，添加相应注解。 done ，但需要引包。
  *  	 5.插入或者更新时空字段不传递至持久层
+ *       6.统一的日志管理，目前BaseEnumTypeHandler有无法处理的枚举时，有散落的异常。PageinnationInterceptor分页拦截器有散落的异常
+ *         Reflections 反射的帮助类，有散落的异常。
  **/
 public class BaseEntity {
 	/**

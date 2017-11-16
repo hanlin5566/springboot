@@ -12,7 +12,7 @@ import com.hzcf.operation.base.util.DateUtils;
 
 /**
  * t_derived_var 
- * @author huhanlin 2017-11-10
+ * @author huhanlin 2017-11-14
  */
 public class DerivedVariable {
     /**

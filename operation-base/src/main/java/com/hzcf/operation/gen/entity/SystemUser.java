@@ -11,7 +11,7 @@ import com.hzcf.operation.base.util.DateUtils;
 
 /**
  * cbd_system_user 
- * @author huhanlin 2017-11-10
+ * @author huhanlin 2017-11-14
  */
 public class SystemUser {
     /**
